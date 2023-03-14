@@ -3,4 +3,47 @@ body{
     margin:auto;
     display:flex;
     flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    height:100vh;
+    border:1px solid black;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+ul{
+    display:flex;
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    margin:0 20px;
+
+}
+
+.content1{
+    display:flex;
+    border:1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content1 img{
+    height:100px;
+    width:200 px;
+}
+.description2{
+    display:flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    
+}
+.card{
+    border: 1px solid black;
 }
